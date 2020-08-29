@@ -1,0 +1,16 @@
+TAREA PARA CLASE 6
+------------------
+
+Aca tener en cuenta que debe retornar
+todos los objetos del mongo.
+
+app.get('/usuario', (request, response) => {
+}
+
+Aca hay que solicitar un solo registro que es el id
+tener en cuenta que: 
+localhost:3000/usuario/17decb11-48ba-4113-1111-6fc9aa0621f7
+
+app.get('/usuario/:id', (request, response) => {
+}
+
